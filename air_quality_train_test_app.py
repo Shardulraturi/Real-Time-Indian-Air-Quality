@@ -71,7 +71,7 @@ def safe_avg_from_predictions(y_pred):
 
 # ------------------ Streamlit UI Config ------------------
 st.set_page_config(page_title="Real-Time AQI Dashboard", layout="wide")
-st.title("🌫️ Real-Time Indian Air Quality + ML Prediction System")
+st.title("🌫️ Real-Time Indian Air Quality Prediction System")
 mode = st.sidebar.radio("Select Mode", ["📡 Real-Time AQI Dashboard", "🤖 Train/Test ML Model"])
 
 # ------------------ REAL-TIME MODE ------------------
